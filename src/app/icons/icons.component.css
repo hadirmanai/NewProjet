@@ -1,0 +1,9 @@
+.card {
+    background-image: url('/assets/Image/unnamed.png'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire card */
+    background-position: center; /* Centers the image */
+   
+  }
+  h6{
+    color: white;
+  }

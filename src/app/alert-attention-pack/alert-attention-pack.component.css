@@ -1,0 +1,60 @@
+.alert-container {
+    display: flex;
+    flex-direction: column;  /* Stack elements vertically */
+    align-items: center;     /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+ margin-top: 50px;
+    text-align: center;      /* Center text */
+    border-radius: 10%;
+}
+
+.alert-text {
+    font-weight: bold;
+    margin-bottom: 10px;     /* Add spacing below the text */
+    font-size: 18px;         /* Adjust text size */
+}
+
+.alert-image {
+    width: 100px;            /* Set the size of the image */
+    height: auto;            /* Keep the aspect ratio */
+   margin-top: -35px;
+}
+
+.alert-buttons {
+    display: flex;
+    gap: 10px;               /* Space between buttons */
+}
+
+.btn {
+    padding: 10px 20px;      /* Button padding */
+    font-size: 16px;         /* Button font size */
+    cursor: pointer;   
+    background: linear-gradient(90deg, #EA4D9D, #6A348A);      /* Pointer on hover */
+}
+.bt {
+    padding: 10px 20px;      /* Button padding */
+    font-size: 16px;         /* Button font size */
+    cursor: pointer;   
+    background: linear-gradient(90deg, #fbfafb, #f9f7fa); }
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.btn-secondary {
+    background-color: white;          /* Set background to white */
+                   /* Set text color to violet */
+    border: 2px solid violet;         /* Add violet border */
+    padding: 5px 20px;               /* Add padding */
+    font-size: 16px;                  /* Set font size */
+    cursor: pointer;                  /* Pointer on hover */
+    border-radius: 5px;               /* Rounded corners */
+    transition: all 0.3s ease;        /* Smooth transition on hover */
+    height: auto;  
+}
+.btn-secondary:hover {
+    background: linear-gradient(90deg, #EA4D9D, #6A348A);           /* Violet background on hover */
+    color: rgb(255, 255, 255);                     /* White text on hover */
+}

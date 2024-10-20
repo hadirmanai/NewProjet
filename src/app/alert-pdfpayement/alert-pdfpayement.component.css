@@ -1,0 +1,31 @@
+.custom-dialog-container {
+    background-image: url('/assets/Image/paint.jpg');  /* Path to your background image */
+    color: white;                            /* Couleur du texte */
+    border-radius: 8px;                      /* Coins arrondis */
+    padding: 20px;                           /* Espacement interne */
+  }
+  .container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+ 
+  }
+  
+  img {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 15px; /* Space below image */
+  }
+  
+  .bt {
+    padding: 10px 20px; /* Button padding */
+    border: none; /* No border */
+    border-radius: 15px; /* Rounded corners for button */
+    background: linear-gradient(90deg, #EA4D9D, #6A348A);
+    color: white; /* Button text color */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s; /* Transition effect */
+  }
+
+  

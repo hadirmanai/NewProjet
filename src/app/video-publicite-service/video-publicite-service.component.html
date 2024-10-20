@@ -1,0 +1,20 @@
+<!-- PoupPackForServicesComponent.html -->
+<div class="popup-overlay" *ngIf="isPopupVisible">
+  
+    <!-- Image de fond -->
+    <div class="popup-content">
+      
+      <!-- Ajoutez une vidéo centrée -->
+      <div class="video-container">
+        <video #videoElement controls (ended)="onVideoEnded()">
+          <source src="/assets/Videos/videoP.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+  
+      <!-- Bouton centré après le texte -->
+
+    
+    </div>
+  </div>
+  

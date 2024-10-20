@@ -1,0 +1,15 @@
+<!-- The alert pop-up -->
+<div class="alert-container" *ngIf="showAlert">
+    <img src="/assets/Image/imgAlert.png" alt="gift" class="alert-image">
+    <p class="alert-text">Attention</p>
+    <p class="alert-text" *ngIf="!message"> <!-- Show original message if no custom message -->
+        Before purchasing our package or service, you must read the training material and pass the test. Otherwise, you will not be able to access our service, and if you refuse, your account will be blocked. Therefore, please make sure to complete the training and the test.
+    </p>
+    <p class="alert-text" *ngIf="message"> <!-- Show custom message if set -->
+        {{ message }}
+    </p>
+    <div class="alert-buttons" *ngIf="!message"> <!-- Only show buttons if message is not set -->
+        <button class="btn btn-primary" [routerLink]="['/formation']">Accepted</button>
+        <button class="btn btn-secondary" (click)="refuse()">Refused</button>
+    </div>
+</div>

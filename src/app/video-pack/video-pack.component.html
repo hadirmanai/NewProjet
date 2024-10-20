@@ -1,0 +1,20 @@
+<!-- PoupPackForServicesComponent.html -->
+<div class="popup-overlay">
+  <div class="popup-content">
+    <!-- Image existante -->
+    <img src="/assets/Image/Pack1.png" alt="Custom Icon" 
+         class="img-fluid position-absolute" 
+         style="border-radius: 50%; margin-top: -45px; margin-left: -30px; justify-content: center; margin-right: 20px;">
+
+    <!-- Conteneur pour la vidéo -->
+    <div class="video-container">
+      <video controls class="video-rounded-shadow">
+        <source src="/assets/Videos/VideoPack.mp4" type="video/mp4">
+        Votre navigateur ne supporte pas la lecture de cette vidéo.
+      </video>
+    </div>
+
+    <!-- Bouton pour fermer la pop-up -->
+    <button (click)="fermerPopup()" class="bt">Close</button>
+  </div>
+</div>

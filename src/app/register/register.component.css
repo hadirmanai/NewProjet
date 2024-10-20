@@ -1,0 +1,39 @@
+.icon {
+    width: 40px; /* Increase this value to make the icon wider */
+    height: 40px; /* Increase this value to make the icon taller */
+    margin-right: 8px; /* Adjust spacing between icon and text as needed */
+}
+.gradient-navbar {
+    background: linear-gradient(to right, #1B1919, #39394a);
+    /* Optional: Adjust padding, border radius, and shadow */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card-body{
+    background-color: rgba(87, 85, 85, 0.5);
+    border-radius: 10px;
+}
+.test{
+    background-color: rgba(87, 85, 85, 0.5);
+    border-radius: 10px;
+}
+.test1{
+    background-color: white;
+}
+.card-container {
+    display: flex; /* Align children horizontally */
+    justify-content: space-between; /* Optional: adds space between the divs */
+    gap: 50px; /* Optional: space between divs */
+  }
+  
+  .card-body {
+    flex: 2; /* Optional: makes each div take equal space */
+    padding: 50px;
+    max-width: 800px; /* Largeur maximale pour chaque carte */
+    width: 100%; /* Largeur à 100% de l'espace disponible */
+  
+  }
+.form-label{
+   margin-left: 220px;
+}

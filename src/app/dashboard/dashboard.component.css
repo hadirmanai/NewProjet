@@ -1,0 +1,23 @@
+.icon-scroll-container {
+    width: 80%; /* Full width */
+    overflow-x: auto; /* Horizontal scrollbar */
+    white-space: nowrap; /* Prevents icons from wrapping to the next line */
+    padding: 10px; /* Optional padding */
+    background: linear-gradient(135deg, rgba(160, 160, 160, 0.5), rgba(112, 111, 111, 0.5)); /* Transparent gradient */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    border-radius: 8px; /* Optional rounded corners */
+    margin-left: 50px;
+  }
+  
+  .icon-scroll {
+    display: inline-flex; /* Display icons in a single line */
+    gap: 15px; /* Space between icons */
+  }
+  
+  .icon-scroll i {
+    font-size: 30px; /* Adjust icon size */
+    color: #000; /* Icon color */
+  }
+  

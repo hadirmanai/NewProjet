@@ -1,0 +1,71 @@
+h4{
+    color: rgb(9, 9, 9);
+}
+.alert {
+    background-color: white !important; /* Changes background color to white */
+    color: black !important; /* Changes text color to black */
+  }
+  
+  .custom-alert .close {
+    color: black !important; /* Changes close button color */
+  }
+  
+  .custom-alert .now-ui-icons {
+    color: black !important; /* Changes icon color */
+  }
+  .custom-dialog-container {
+ /* Path to your background image */
+    color: white;                            /* Couleur du texte */
+    border-radius: 8px;                      /* Coins arrondis */
+    padding: 20px;                           /* Espacement interne */
+  }
+  
+
+  .card {
+    /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire card */
+    background-position: center; /* Centers the image */
+    border-radius: 10px;
+   background-color: aliceblue;
+  }
+  h4{
+    color: rgb(7, 7, 7);
+    font-weight: bold;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .input-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .centered-text {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .icons-section {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .icons-section img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+  

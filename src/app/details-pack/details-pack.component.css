@@ -1,0 +1,15 @@
+h6{
+
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+.bt {
+    padding: 10px 20px; /* Button padding */
+    border: none; /* No border */
+    border-radius: 15px; /* Rounded corners for button */
+    background: linear-gradient(90deg, #EA4D9D, #6A348A);
+    color: white; /* Button text color */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s; /* Transition effect */
+  }
+  

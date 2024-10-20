@@ -1,0 +1,96 @@
+/* Style global du quiz */
+.quiz-container {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+   
+    border-radius: 10px;
+    background: linear-gradient(to right, #1CD8E4, #784DAE); 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style pour les questions */
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Style des options */
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  label {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  /* Style pour le bouton de vérification */
+  button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #414041;
+  }
+  
+  /* Style pour le score */
+  p {
+    margin-top: 20px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+/* Styles pour le timer circulaire */
+.timer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .circle {
+    position: relative;
+    width: 100px;
+    height: 100px;
+  }
+  
+  svg {
+    width: 100px;
+    height: 100px;
+    transform: rotate(-90deg);
+  }
+  
+  circle {
+    fill: none;
+    stroke: #784DAE;
+    stroke-width: 10;
+    stroke-dasharray: 283;
+    stroke-dashoffset: calc(283 - (283 * {{ timeLeft }}) / 60);
+    transition: stroke-dashoffset 1s linear;
+  }
+  
+  .time {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: bold;
+  }
+  .container {
+    display: flex;
+    align-items: center; /* Aligne les éléments verticalement au centre */
+    justify-content: space-between; /* Espace entre le texte et le timer */
+  }

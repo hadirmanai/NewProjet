@@ -1,0 +1,30 @@
+.sidebar-wrapper {
+    background-image: url('/assets/Image/IMG_1820.jpg'); /* Replace with your image path */
+    background-size: cover; /* Adjusts the image size */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents image repetition */
+    height: 100vh; /* Full height */
+    width: 260px; /* Adjust width as needed */
+    color: #070707; /* Text color, adjust as necessary */
+    display: flex;
+    flex-direction: column;
+}
+.nav-item a {
+    text-decoration: none;
+    color: #080808; /* White text color for visibility */
+    display: flex; /* Align icon and text */
+    align-items: center; /* Center vertically */
+}
+
+.nav-item a:hover {
+    background-color: rgba(205, 200, 200, 0.2); /* Slightly transparent white on hover */
+}
+
+.active a {
+    font-weight: bold; /* Highlight active item */
+    background-color: rgba(9, 9, 9, 0.3); /* Light background for active item */
+}
+.nav-item a i {
+    color: #000000; /* Set icon color to black */
+}
+

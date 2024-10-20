@@ -1,0 +1,34 @@
+h4{
+    color: rgb(9, 9, 9);
+}
+.alert {
+    background-color: white !important; /* Changes background color to white */
+    color: black !important; /* Changes text color to black */
+  }
+  
+  .custom-alert .close {
+    color: black !important; /* Changes close button color */
+  }
+  
+  .custom-alert .now-ui-icons {
+    color: black !important; /* Changes icon color */
+  }
+  .custom-dialog-container {
+    background-image: url('/assets/Image/image 42.png');  /* Path to your background image */
+    color: white;                            /* Couleur du texte */
+    border-radius: 8px;                      /* Coins arrondis */
+    padding: 20px;                           /* Espacement interne */
+  }
+  
+
+  .card1 {
+    background-image: url('/assets/Image/unnamed.png'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire card */
+    background-position: center; /* Centers the image */
+    border-radius: 10px;
+   
+  }
+  h6{
+    color: white;
+    font-weight: bold;
+  }
